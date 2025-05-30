@@ -53,7 +53,3 @@ Glavne ovisnosti koje se koriste u projektu (na temelju pregledanih skripti):
 *   `JLD2`
 
 Ako koristite `Project.toml` i `Manifest.toml`, Julia će automatski upravljati ovim ovisnostima.
-
-## Doprinos
-
-Slobodno predložite izmjene ili poboljšanja.
