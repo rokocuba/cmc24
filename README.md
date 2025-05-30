@@ -8,8 +8,8 @@ Službene upute nalaze se na: [https://www.fer.unizg.hr/zpm/cmc24/tehnicki_opis]
 Projekt je organiziran na sljedeći način:
 
 *   `src/`: Sadrži glavne Julia skripte (`.jl`) koje implementiraju logiku natjecanja.
-    *   `cmc24.jl`: Vjerojatno glavna skripta ili jedna od glavnih implementacija.
-    *   `cmc24C.jl`: Moguće da je ovo skripta za evaluaciju ili alternativna verzija.
+    *   `cmc24.jl`: Glavna skripta.
+    *   `cmc24C.jl`: Skripta za evaluaciju.
     *   Ostale `.jl` datoteke: Pomoćne skripte, editori rješenja ili specifične verzije.
 *   `scripts/`: Sadrži pomoćne ili testne skripte.
     *   `points_try.jl`: Skripta za testiranje rada s točkama ili geometrijom.
@@ -18,7 +18,6 @@ Projekt je organiziran na sljedeći način:
     *   `images/`: Spremljene slike i vizualizacije (npr. `.png` datoteke).
     *   `heatgrids/`: Podaci vezani za "heatgrid" analize.
     *   `jld2_files/`: Spremljena rješenja i drugi podaci u Julia Data Format (`.jld2`).
-        *   `BEST_SOLUTIONS/`: Unutar `jld2_files`, sadrži najbolja pronađena rješenja.
 *   `README.md`: Ova datoteka s opisom projekta.
 *   `.gitignore`: Specificira datoteke koje Git treba ignorirati.
 *   `Project.toml` i `Manifest.toml`: (Ako postoje) Definiraju ovisnosti Julia projekta.
