@@ -37,7 +37,7 @@ Projekt je organiziran na sljedeći način:
 Za pokretanje glavne simulacije ili evaluacije, vjerojatno ćete koristiti Julia interpreter.
 
 1.  **Instalirajte Juliu:** Ako već niste, preuzmite i instalirajte Juliu s [julialang.org](https://julialang.org/).
-2.  **Navigirajte do direktorija projekta:** Otvorite terminal u `c:\Users\roko\OneDrive - fer.hr\Programiranje\cmc24`.
+2.  **Navigirajte do direktorija projekta**
 3.  **Aktivirajte projektno okruženje (ako postoji `Project.toml`):**
     ```julia
     using Pkg
