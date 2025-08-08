@@ -45,11 +45,9 @@ Za pokretanje glavne simulacije ili evaluacije, vjerojatno ćete koristiti Julia
     Pkg.instantiate() # Instalira potrebne pakete ako već nisu
     ```
 4.  **Pokrenite glavnu skriptu:**
-    Pretpostavljajući da je jedna od skripti u `src/` glavna (npr. `src/cmc24.jl` ili `src/cmc24C.jl`):
     ```bash
-    julia src/ime_glavne_skripte.jl
+    julia src/24.jl
     ```
-    (Zamijenite `ime_glavne_skripte.jl` s točnim nazivom datoteke.)
 
 ## Ovisnosti
 
