@@ -9,7 +9,7 @@ Tree-Based Evolutionary Algorithm (Branching EA)
 
 Algoritam iterativno generira familiju zrcala tako da u svakom koraku kreira više novih zrcala, zatim evaluira svako zrcalo pomoću kombinacije score-a (pokrivenost hrama) i heurističke metrike pozicije, te odabire samo dva najbolja. Ta dva zrcala zatim služe kao osnova za daljnje grananje – za svako od njih generiraju se po dva nova zrcala, što se ponavlja sve dok se ne postigne unaprijed definirani maksimalni broj zrcala N. Ovaj pristup omogućuje balans između eksploatacije (odabir najboljih) i eksploracije (generiranje novih varijanti). 
 
-Nakon toga se algoritmom preraspoređivanja zrcala (algoritam maksimizacije) za sve parove susjednih zrcala maksimizira udaljenost zrake odnosno kut odbijanja na način da očuva se ulazni i izlazni pravac zrake (u odnosu na par zrcala).
+Nakon toga se algoritmom preraspoređivanja zrcala (algoritam maksimizacije) za sve parove susjednih zrcala maksimizira udaljenost zrake odnosno kut odbijanja na način da očuva ulazni i izlazni pravac zrake (u odnosu na par zrcala).
 
 <img src="output/images/cmc24_solution.png" alt="Rješenje" width="400"/>
 
