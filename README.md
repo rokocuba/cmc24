@@ -6,6 +6,7 @@ This repository contains the solution for the Computer Modeling Competition 2024
 
 Official instructions can be found at: [https://www.fer.unizg.hr/zpm/cmc24/tehnicki_opis](https://www.fer.unizg.hr/zpm/cmc24/tehnicki_opis)
 
+Hrvatski:
 Ovaj repozitorij sadrži rješenje za Natjecanje iz Računalnog Modeliranja 2024 (CMC24). Projekt uključuje simulaciju putanje svjetlosti kroz definirani "hram" s ciljem osvjetljavanja što veće površine.
 
 Službene upute nalaze se na: [https://www.fer.unizg.hr/zpm/cmc24/tehnicki_opis](https://www.fer.unizg.hr/zpm/cmc24/tehnicki_opis)
