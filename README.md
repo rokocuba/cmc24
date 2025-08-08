@@ -46,7 +46,7 @@ Za pokretanje glavne simulacije ili evaluacije, vjerojatno ćete koristiti Julia
     ```
 4.  **Pokrenite glavnu skriptu:**
     ```bash
-    julia src/24.jl
+    julia src/cmc24.jl
     ```
 
 ## Ovisnosti
