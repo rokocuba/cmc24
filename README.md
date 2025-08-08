@@ -7,6 +7,12 @@ Rješenje:
 
 Tree-Based Evolutionary Algorithm (Branching EA)
 
+English:
+The algorithm iteratively generates a family of mirrors by creating several new mirrors in each step. It then evaluates each mirror using a combination of a score (temple coverage) and a heuristic position metric, selecting only the two best mirrors. These two mirrors then serve as the basis for further branching—two new mirrors are generated for each of them. This process is repeated until a predefined maximum number of mirrors, N, is reached. This approach allows for a balance between exploitation (selecting the best) and exploration (generating new variants).
+
+After this, a mirror rearrangement algorithm (a maximization algorithm) is applied to all pairs of adjacent mirrors to maximize the ray distance and the reflection angle, in a way that preserves the incoming and outgoing ray directions (relative to the pair of mirrors).
+
+Hrvatski:
 Algoritam iterativno generira familiju zrcala tako da u svakom koraku kreira više novih zrcala, zatim evaluira svako zrcalo pomoću kombinacije score-a (pokrivenost hrama) i heurističke metrike pozicije, te odabire samo dva najbolja. Ta dva zrcala zatim služe kao osnova za daljnje grananje – za svako od njih generiraju se po dva nova zrcala, što se ponavlja sve dok se ne postigne unaprijed definirani maksimalni broj zrcala N. Ovaj pristup omogućuje balans između eksploatacije (odabir najboljih) i eksploracije (generiranje novih varijanti). 
 
 Nakon toga se algoritmom preraspoređivanja zrcala (algoritam maksimizacije) za sve parove susjednih zrcala maksimizira udaljenost zrake odnosno kut odbijanja na način da očuva ulazni i izlazni pravac zrake (u odnosu na par zrcala).
