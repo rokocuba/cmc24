@@ -25,7 +25,7 @@ To solve this high-dimensional optimization problem, I designed and implemented 
 ### Tech Stack
 
 *   **Core Language:** Julia
-*   **Key Packages:** [Please add any key Julia packages you used here, e.g., Plots.jl for visualization]
+*   **Key Packages:** [Plots, Measures]
 
 ### Project Context & Trade-offs
 
