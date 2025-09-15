@@ -10,3 +10,5 @@ After this, a mirror rearrangement algorithm is applied to all pairs of adjacent
 <p align="center">
 <img src="output/images/cmc24_solution.png" alt="Rješenje" width="400"/>
 </p>
+
+This was an early project focused on rapid prototyping. I have since revisited the codebase to refactor it for clarity, maintainability, and to apply better software engineering practices.
